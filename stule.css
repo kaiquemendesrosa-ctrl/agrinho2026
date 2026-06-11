@@ -1,0 +1,124 @@
+
+/* Configurações Gerais e Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #2e5a1c;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 5px solid #8bc34a;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Conteúdo Principal */
+main {
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.conteudo-principal article {
+    background: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #2e5a1c;
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Citação do Ministro */
+.citacao {
+    background-color: #e8f5e9;
+    border-left: 5px solid #4caf50;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+}
+
+.citacao cite {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Lista e Botão */
+.lista-praticas {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.lista-praticas li {
+    margin-bottom: 8px;
+    padding: 5px;
+    transition: background 0.3s ease;
+}
+
+.classe-destaque {
+    background-color: #fff9c4;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #8bc34a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #7cb342;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1e3315;
+    color: #bbb;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    margin-top: 40px;
+}
